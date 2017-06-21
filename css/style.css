@@ -19,10 +19,10 @@ body{
 
 .flex-item {
   background: tomato;
-  padding: 5px;
+  padding: 2%;
   /*width: 200px;*/
   /*height: 150px;*/
-  margin: 5%;
+  margin: 7% 3% ;
 
   /*line-height: 150px;
   color: white;
