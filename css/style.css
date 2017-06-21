@@ -22,11 +22,9 @@ body{
   padding: 2%;
   /*width: 200px;*/
   /*height: 150px;*/
-  margin: 7% 3% ;
+  margin: 7% 3%;
+}
 
-  /*line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;*/
+footer{
+  border-top: 1px solid black;
 }
