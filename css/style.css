@@ -1,6 +1,21 @@
 body{
   /*background-color: black;*/
 }
+
+#portada{
+  background-image: url("../assets/img/portada.jpg");
+  background-size: cover;
+  /*height: 100vh;*/
+  /*border: 1px solid red;*/
+}
+
+/*#portada>section{
+  height: 100vh;
+}
+
+#portada>section>img{
+  width: 100%;
+}*/
 /*Estilos flexbox*/
 .flex-container {
   padding: 0;
