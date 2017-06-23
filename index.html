@@ -11,7 +11,7 @@
     <title> Bienvenido </title>
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body class="grey lighten-2">
+  <body class="teal lighten-3">
     <!-- Menu -->
     <header class="navbar-fixed">
       <nav class="black darken-4">
@@ -21,7 +21,7 @@
         <!-- Opciones menu -->
         <ul id="opcsMenu" class="dropdown-content">
           <li><a href=""><i class="material-icons -text text-darken-4">menu</i></a></li>
-          <li id=""><a ><i class="material-icons -text text-darken-4">email</i>Contacto</a></li>
+          <li id=""><a href="#datosContacto" ><i class="material-icons -text text-darken-4">email</i>Contacto</a></li>
           <li><a href="#seccionProyectos"><i class="material-icons -text text-darken-4">work</i>Proyectos</a></li>
           <li><a href="assets/yesenia_escarcega_cv.pdf"><i class="material-icons -text text-darken-4">file_download</i>CV</a></li>
         </ul>
@@ -29,6 +29,7 @@
         <div class="">
           <div class="logo">
             <a href="index.html">
+				<!-- <h4 class="white-text"> BIENVENIDO</h4> -->
               <!-- <img src="assets/img/alertate_logo_blanco.png" alt="logo" class=""> -->
             </a>
           </div>
@@ -38,55 +39,63 @@
     <!-- Portada -->
     <section id="portada" class="">
       <div class="row center">
-        <h3> ¡Hola!</h3>
-        <h4> Yo soy Inti :)</h4>
+        <h3 class="white-text"> ¡Hola!</h3>
+        <h4 class="teal-text"> Yo soy Inti :)</h4>
       </div>
       <!-- Resumen perfil -->
       <section class="row center">
-        <p class="offset-s2 col s8">
-          Desarrolladora front-end Jr. Entusiasta por aprender nuevas tecnologías y apasionada por el desarrollo móvil y la realidad aumentada.
+        <p class="offset-s2 col s8 blue-grey-text text-lighten-5">
+          <strong>
+			  Desarrolladora front-end Jr. Entusiasta por aprender nuevas
+			  tecnologías y apasionada por el desarrollo móvil y la
+			  realidad aumentada.
+		</strong>
         </p>
       </section>
       <!-- <section>
         <img src="assets/img/portada.jpg" alt="portada" class="responsive-img">
       </section> -->
+
       <!-- Saber más -->
       <section class="row center">
-        <button type="button" name="button" class="btn"> Saber más..</button>
+        <!-- <button type="button" name="button" class="btn"> Saber más..</button> -->
       </section>
       <!-- Descarga CV-->
-      <section class="row ">
-        <a href="assets/yesenia_escarcega_cv.pdf" dowload class="waves-effect waves-light btn offset-s4 col s4"><i class="material-icons right">file_download
-        </i>CV</a>
+      <section class="row">
+        <a href="assets/yesenia_escarcega_cv.pdf" dowload class="waves-effect waves-light btn offset-s4 col s4 btn-15">
+			<i class="material-icons right">file_download</i>
+			CV
+		</a>
       </section>
     </section>
     <!-- Habilidades Técnicas -->
-    <section class=" black">
+    <section class="brd-bck">
+		<h4 class="center"> HABILIDADES </h4>
       <ul class="flex-container">
         <li class="flex-item">
-          <a href="http://placeholder.com"><img src="http://via.placeholder.com/150x150" class="responsive-img"></a>
+          <a href="http://placeholder.com"><img src="assets/icons/bootstrap.png" class="responsive-img"></a>
         </li>
         <li class="flex-item">
-          <a href="http://placeholder.com"><img src="http://via.placeholder.com/150x150" class="responsive-img"></a>
+          <a href="http://placeholder.com"><img src="assets/icons/css3.png" class="responsive-img"></a>
         </li>
         <li class="flex-item">
-          <a href="http://placeholder.com"><img src="http://via.placeholder.com/150x150" class="responsive-img"></a>
+          <a href="http://placeholder.com"><img src="assets/icons/git.png" class="responsive-img"></a>
         </li>
         <li class="flex-item">
-          <a href="http://placeholder.com"><img src="http://via.placeholder.com/150x150" class="responsive-img"></a>
+          <a href="http://placeholder.com"><img src="assets/icons/html5.png" class="responsive-img"></a>
         </li>
         <li class="flex-item">
-          <a href="http://placeholder.com"><img src="http://via.placeholder.com/150x150" class="responsive-img"></a>
+          <a href="http://placeholder.com"><img src="assets/icons/js.png" class="responsive-img"></a>
         </li>
         <li class="flex-item">
-          <a href="http://placeholder.com"><img src="http://via.placeholder.com/150x150" class="responsive-img"></a>
+          <a href="http://placeholder.com"><img src="assets/icons/materialize.png" class="responsive-img"></a>
         </li>
       </ul>
     </section>
     <!-- Proyectos  -->
     <section id="seccionProyectos" class="container">
-      <div class="row">
-        <!-- PRIMERA lista de proyectos -->
+      <!-- <div class="row">
+        PRIMERA lista de proyectos -> comentar esta linea
         <ul class="collapsible col s6" data-collapsible="accordion">
           <li>
             <div class="collapsible-header">
@@ -124,7 +133,7 @@
             <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
           </li>
         </ul>
-        <!-- SEGUNDA lista de proyectos -->
+        <!-- SEGUNDA lista de proyectos
         <ul class="collapsible col s6" data-collapsible="accordion">
           <li>
             <div class="collapsible-header">
@@ -140,32 +149,32 @@
           <li>
             <div class="collapsible-header">
               Third
-              <!-- Carrusel vistas proyecto -->
+              <!-- Carrusel vistas proyecto
               <div class="slider container">
                 <ul class="slides">
                   <li>
-                    <img src="http://lorempixel.com/580/250/nature/1" class="responsive-img"> <!-- random image -->
+                    <img src="http://lorempixel.com/580/250/nature/1" class="responsive-img">
                     <div class="caption center-align">
                       <h3>This is our big Tagline!</h3>
                       <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
                     </div>
                   </li>
                   <li>
-                    <img src="http://lorempixel.com/580/250/nature/2" class="responsive-img"> <!-- random image -->
+                    <img src="http://lorempixel.com/580/250/nature/2" class="responsive-img">
                     <div class="caption left-align">
                       <h3 class="col s6">Left Aligned Caption</h3>
                       <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
                     </div>
                   </li>
                   <li>
-                    <img src="http://lorempixel.com/580/250/nature/3" class="responsive-img"> <!-- random image -->
+                    <img src="http://lorempixel.com/580/250/nature/3" class="responsive-img">
                     <div class="caption right-align">
                       <h3>Right Aligned Caption</h3>
                       <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
                     </div>
                   </li>
                   <li>
-                    <img src="http://lorempixel.com/580/250/nature/4" class="responsive-img"> <!-- random image -->
+                    <img src="http://lorempixel.com/580/250/nature/4" class="responsive-img">
                     <div class="caption center-align">
                       <h3>This is our big Tagline!</h3>
                       <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
@@ -177,29 +186,88 @@
             <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
           </li>
         </ul>
-      </div>
+      </div> -->
+		<!-- Descripción proyectos-->
+		<section  id="trabajos" class="container center-align">
+            <h3 class="titulo">Proyectos realizados</h3>
+            <div class="row">
+             <div class="container-a4">
+		        <ul class="caption-style-4">
+		            <li>
+		                <img src="http://via.placeholder.com/150x150" alt="">
+		                <div class="caption">
+		                    <div class="blur"></div>
+		                    <div class="caption-text center">
+		                        <h5>Amazing Caption</h5>
+		                        <p>Whatever It Is - Always Awesome</p>
+		                    </div>
+		                </div>
+		            </li>
+		            <li>
+		                <img src="http://via.placeholder.com/150x150" alt="">
+		                <div class="caption">
+		                    <div class="blur"></div>
+		                    <div class="caption-text">
+		                        <h5>Amazing Caption</h5>
+		                        <p>Whatever It Is - Always Awesome</p>
+		                    </div>
+		                </div>
+		            </li>
+		            <li>
+		                <img src="http://via.placeholder.com/150x150" alt="">
+		                <div class="caption">
+		                    <div class="blur"></div>
+		                    <div class="caption-text">
+		                        <h5>Amazing Caption</h5>
+		                        <p>Whatever It Is - Always Awesome</p>
+		                    </div>
+		                </div>
+		            </li>
+		            <li>
+		                <img src="http://via.placeholder.com/150x150" alt="">
+		                <div class="caption">
+		                    <div class="blur"></div>
+		                    <div class="caption-text">
+		                        <h5>Amazing Caption</h5>
+		                        <p>Whatever It Is - Always Awesome</p>
+		                    </div>
+		                </div>
+		            </li>
+		        </ul>
+		    </div>
+            </div>
+        </section>
     </section>
     <!-- Contacto -->
-    <footer class="center">
-      <h5> TRABAJEMOS JUNTOS</h5>
+    <footer id="datosContacto" class="center brd-bck">
+      <h5 class="white-text"> TRABAJEMOS JUNTOS </h5>
       <section class="container">
         <div class="row">
           <p class="center">
             Si quieres ver a detalle mi trabajo visita
           </p>
-          <div class="col s3">
-            <img src="assets/icons/github.png" alt="" class="responsive-img">
+          <div class="offset-s5 col s2">
+			  <a href="https://github.com/IntiDev">
+				  <img src="assets/icons/github.png" alt="github" class="responsive-img">
+			  </a>
           </div>
         </div>
         <div class="row">
           <p class="center">
             Si te gusto mi perfil pongamonos en contacto
           </p>
-          <div class="col s6">
-            <img src="assets/icons/linkedin.png" alt="" class="responsive-img">
-            <a href="mailto:yeseniase@outlook.it?Subject=Contacto" target="_top">Send Mail</a>
-            <img src="assets/icons/outlook.png" alt="" class="responsive-img">
+          <div class="offset-s3 col s2 link">
+            <a href="https://www.linkedin.com/in/intidev">
+				<div class="link">
+					<img src="assets/icons/linkedin.png" alt="linkedin" class="responsive-img">
+				</div>
+			</a>
           </div>
+		  <div class="offset-s2 col s2">
+			  <a href="mailto:yeseniase@outlook.it?Subject=Contacto" target="_top">
+              	<img src="assets/icons/outlook.png" alt="email" class="responsive-img">
+			  </a>
+		  </div>
         </div>
 
       </section>

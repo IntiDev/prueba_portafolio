@@ -8,14 +8,6 @@ body{
   /*height: 100vh;*/
   /*border: 1px solid red;*/
 }
-
-/*#portada>section{
-  height: 100vh;
-}
-
-#portada>section>img{
-  width: 100%;
-}*/
 /*Estilos flexbox*/
 .flex-container {
   padding: 0;
@@ -33,13 +25,134 @@ body{
 }
 
 .flex-item {
-  background: tomato;
+  background: white;
   padding: 2%;
-  /*width: 200px;*/
-  /*height: 150px;*/
+  width: 150px;
+  height: 200px;
   margin: 7% 3%;
 }
+/* Borde*/
+.brd-bck{
+	border-top: 5px solid black;
+}
+/*Márgenes*/
 
+.top-15{
+	margin-top: 15%;
+}
+.btn-15{
+	margin-bottom: 15%;
+}
+
+/*Estilos descripción*/
+.caption-style-4{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+
+    }
+    .caption-style-4 li{
+        float: left;
+        padding: 0px;
+        position: relative;
+        overflow: hidden;
+    }
+    .caption-style-4 li:hover .caption{
+        opacity: 2;
+    }
+    .caption-style-4 li:hover img{
+        opacity: 1;
+        transform: scale(1.15,1.15);
+        -webkit-transform:scale(1.15,1.15);
+        -moz-transform:scale(1.15,1.15);
+        -ms-transform:scale(1.15,1.15);
+        -o-transform:scale(1.15,1.15);
+    }
+    .caption-style-4 img{
+        margin: 0px;
+        padding: 0px;
+        float: left;
+        z-index: 4;
+    }
+    .caption-style-4 .caption{
+        cursor: pointer;
+        position: absolute;
+        opacity: 0;
+        -webkit-transition:all 0.45s ease-in-out;
+        -moz-transition:all 0.45s ease-in-out;
+        -o-transition:all 0.45s ease-in-out;
+        -ms-transition:all 0.45s ease-in-out;
+        transition:all 0.45s ease-in-out;
+    }
+    .caption-style-4 img{
+        -webkit-transition:all 0.25s ease-in-out;
+        -moz-transition:all 0.25s ease-in-out;
+        -o-transition:all 0.25s ease-in-out;
+        -ms-transition:all 0.25s ease-in-out;
+        transition:all 0.25s ease-in-out;
+    }
+    .caption-style-4 .blur{
+        background-color: rgba(0,0,0,0.65);
+        height: 300px;
+        width: 300px;
+        z-index: 5;
+        position: absolute;
+    }
+    .caption-style-4 .caption-text h1{
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+    .caption-style-4 .caption-text{
+        z-index: 10;
+        color: #fff;
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        top:50px;
+    }
+    /** content **/
+    .content{
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 300px;
+    }
+    .content h1, .content h2{
+        font-family: 'Poiret One', cursive;
+        color: #ecf0f1;
+        padding: 0px;
+        margin: 0px;
+        font-weight: normal;
+    }
+    .content h1{
+        font-weight: 900;
+        font-size: 20px;
+    }
+    .content h2{
+        font-size:26px;
+    }
+    .content p{
+        color: #ecf0f1;
+        font-family: "Lato";
+        line-height: 28px;
+        font-size: 15px;
+        padding-top: 50px;
+    }
+    p.credit{
+        padding-top: 20px;
+        font-size: 12px;
+    }
+    p a{
+        color: #ecf0f1;
+    }
+
+/*Estilos footer*/
 footer{
-  border-top: 1px solid black;
+  background-image: url("../assets/img/contacto.jpg");
+  background-size: cover;
+}
+
+.link{
+	/*background-color: white;*/
+	border-radius: 50%;
 }
